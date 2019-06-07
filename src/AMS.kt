@@ -1,39 +1,23 @@
-fun main(args: Array<String>) {
-    var fortune: String
-    for (i in 1..10) {
-        fortune = lesson_2.getFortune(lesson_2.getBirthday())
-        println("\nYour fortune is: $fortune")
-        if (fortune.contains("Take it easy")) break
-    }
+import sun.security.util.Length
+
+fun main() {
+    println(canAddFish(10.0, listOf(3,3,3)))
+    println(canAddFish(8.0, listOf(2,2,2), hasDecorations = false))
+    println(canAddFish(9.0, listOf(1,1,3), 3))
+    println(canAddFish(10.0, listOf(), 7, true))
 }
 
-fun getFortune(birthday: Int): String {
+fun canAddFish(
+    capacity: Double,
+    numberOfFish: List<Int>,
+    newFishLength: Int = 2,
+    hasDecorations: Boolean = true
+) : Boolean
 
-    val fortune = listOf(
-        "You will have a great day!",
-        "Things will go well for you today.",
-        "Enjoy a wonderful day of success.",
-        "Be humble and all will turn out well.",
-        "Today is a good day for exercising restraint.",
-        "Take it easy and enjoy life!",
-        "Treasure your friends because they are your greatest fortune."
-    )
-
-    val index = when(birthday){
-        in 28..31 -> 4
-        in 1..7 -> 2
-        else -> birthday.rem(fortune.size)
-    }
-
-
-    return  fortune[index]
-
+{
+   return (capacity * if(hasDecorations) 0.8 else 1.0) >= numberOfFish.sum()+newFishLength
 }
 
-fun getBirthday(): Int {
-    print("Enter birthday : ")
-    return readLine()?.toIntOrNull() ?:1
-}
 
 
 
