@@ -1,4 +1,4 @@
-package classes
+package inheritance
 
 /*
 1- Create a class, Book, with a title and an author.
