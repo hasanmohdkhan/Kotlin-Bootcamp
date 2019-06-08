@@ -26,6 +26,7 @@ fun callAquarium() {
     println("_______________________________________")
 
 
+
     val spiciness = SimpleSpice()
     println("Spices name: ${spiciness.nameOfSpice} - heat: ${spiciness.heat}")
 
@@ -33,5 +34,26 @@ fun callAquarium() {
     spiciness.nameOfSpice = "green curry"
 
     println("Spices name: ${spiciness.nameOfSpice} - heat: ${spiciness.heat}")
+
+    val spices1 = listOf(
+        Spice("curry", "mild"),
+        Spice("pepper", "medium"),
+        Spice("cayenne", "spicy"),
+        Spice("ginger", "mild"),
+        Spice("red curry", "medium"),
+        Spice("green curry", "mild"),
+        Spice("hot pepper", "extremely spicy")
+    )
+    println("Spices : $spices1")
+
+    val spice = Spice("cayenne", spiciness = "spicy")
+    println("Spices heat: ${spice.heat}")
+
+    val spicelist = spices1.filter { it.heat < 5 }
+    println("Spices  list : $spicelist")
+
+    fun makeSalt() = Spice("Salt")
+    println("Spices : ${makeSalt().heat}")
+
 
 }
