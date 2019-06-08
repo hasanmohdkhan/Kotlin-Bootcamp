@@ -1,6 +1,5 @@
 package lambdas
 
-import java.lang.Math.random
 import java.util.*
 
 fun main() {
@@ -8,13 +7,6 @@ fun main() {
     val dirty = 20
     val filter = { dirty: Int -> dirty / 4 } // lambdas
     println(filter(dirty))
-
-
-    val random1 = random()
-    val random2 = { random() }
-
-    //println("R1 $random1 & R2 $random2")
-
 
     val rollADice = { Random().nextInt(12) + 1 }
     println("Roll a dice : " + rollADice())

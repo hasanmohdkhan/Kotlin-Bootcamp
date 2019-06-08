@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0707124-b407-49f3-8b15-facde6b36269" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambdas/Lambdaas.kt" afterDir="false" />
+    <list default="true" id="e0707124-b407-49f3-8b15-facde6b36269" name="Default Changelist" comment="Classes in Kotlin&#10;------------------------&#10;- Access can be public,private,protected,internal&#10;- public visible to all &#10;- private visible to file or(class in which it written)&#10;- protected visible to file and sub classes&#10;- internal visible to module(if compile in library then it will not visible to other classes)">
+      <change afterPath="$PROJECT_DIR$/src/classes/Aquarium.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/SimpleSpice.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Basics/META-INF/Basics.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/META-INF/Basics.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambdas/Lambdaas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/Lambdaas.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +21,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/Aquarium.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/SimpleSpice.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lambdas/Lambdaas.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-              <folding>
-                <element signature="e#17#64#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="111">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -35,7 +62,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -52,6 +81,11 @@
         <option value="$PROJECT_DIR$/src/FilterExample.kt" />
         <option value="$PROJECT_DIR$/src/filters/FilterExample.kt" />
         <option value="$PROJECT_DIR$/src/lambdas/Lambdaas.kt" />
+        <option value="$PROJECT_DIR$/src/classes/Aquarium.java" />
+        <option value="$PROJECT_DIR$/src/classes/Auarium.kt" />
+        <option value="$PROJECT_DIR$/src/classes/Main.kt" />
+        <option value="$PROJECT_DIR$/src/classes/Aquarium.kt" />
+        <option value="$PROJECT_DIR$/src/classes/SimpleSpice.kt" />
       </list>
     </option>
   </component>
@@ -90,7 +124,7 @@
               <item name="Basics" type="b2602c69:ProjectViewProjectNode" />
               <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -121,20 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.lambdas.LambdaasKt">
-    <configuration name="AMSKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Basics" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="14" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="AMSKt" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.classes.MainKt">
     <configuration name="HourOfDayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Basics" />
       <option name="VM_PARAMETERS" />
@@ -143,6 +164,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="HourOfDayKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classes.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Basics" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="classes.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,19 +222,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.AMSKt" />
       <item itemvalue="Kotlin.HourOfDayKt" />
       <item itemvalue="Kotlin.lesson_2.HourOfDayKt" />
       <item itemvalue="Kotlin.filters.FilterExampleKt" />
       <item itemvalue="Kotlin.lambdas.LambdaasKt" />
+      <item itemvalue="Kotlin.classes.MainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.classes.MainKt" />
         <item itemvalue="Kotlin.lambdas.LambdaasKt" />
         <item itemvalue="Kotlin.filters.FilterExampleKt" />
         <item itemvalue="Kotlin.lesson_2.HourOfDayKt" />
         <item itemvalue="Kotlin.HourOfDayKt" />
-        <item itemvalue="Kotlin.lesson_2.HourOfDayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -222,14 +256,20 @@
       <option name="project" value="LOCAL" />
       <updated>1559967854214</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lambda in Kotlin&#10;------------------------&#10;To define a lambda, we need to stick to the syntax:&#10;&#10;val lambdaName : Type = { argumentList -&gt; codeBody }&#10;&#10;Type Inference&#10;Kotlin’s type inference allows the type of a lambda to be evaluated by the compiler.&#10;&#10;Writing a lambda that produces the square of a number would be as written as:&#10;&#10;val square = { number: Int -&gt; number * number }&#10;val nine = square(3)&#10;&#10;Kotlin will evaluate the above example to be a function that takes one Int and returns an Int: (Int) -&gt; Int&#10;&#10;If we wanted to create a lambda that multiplies its single argument numbers by 100 then returns that value as a String:&#10;&#10;val magnitude100String = { input : Int -&gt;&#10;    val magnitude = input * 100&#10;    magnitude.toString()&#10;}&#10;&#10;Kotlin will understand that this lambda is of type (Int) -&gt; String.&#10;&#10;Type Declaration&#10;Occasionally Kotlin can’t infer our types and we must explicitly declare the type for our lambda; just as we can with any other type.&#10;&#10;The pattern is input -&gt; output, however, if the code returns no value we use the type Unit:&#10;&#10;val that : Int -&gt; Int = { three -&gt; three }&#10;val more : (String, Int) -&gt; String = { str, int -&gt; str + int }&#10;val noReturn : Int -&gt; Unit = { num -&gt; println(num) }">
+      <created>1559973602726</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559973602726</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12556732" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.052950077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -238,14 +278,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.95090014" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.60883796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.65139115" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.58428806" />
+      <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.3764321" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32733223" />
       <window_info anchor="right" id="Key Promoter X" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -287,8 +327,14 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Filters in Kotlin&#10;------------------------&#10;- Filter can filter a list.&#10;- Filters are of eagar and lazy type&#10;- Filters can create whole duplicate list&#10;- asSequence is just opposite(they not create duplicate list )" />
-    <option name="LAST_COMMIT_MESSAGE" value="Filters in Kotlin&#10;------------------------&#10;- Filter can filter a list.&#10;- Filters are of eagar and lazy type&#10;- Filters can create whole duplicate list&#10;- asSequence is just opposite(they not create duplicate list )" />
+    <MESSAGE value="Lambda in Kotlin&#10;------------------------&#10;To define a lambda, we need to stick to the syntax:&#10;&#10;val lambdaName : Type = { argumentList -&gt; codeBody }&#10;&#10;Type Inference&#10;Kotlin’s type inference allows the type of a lambda to be evaluated by the compiler.&#10;&#10;Writing a lambda that produces the square of a number would be as written as:&#10;&#10;val square = { number: Int -&gt; number * number }&#10;val nine = square(3)&#10;&#10;Kotlin will evaluate the above example to be a function that takes one Int and returns an Int: (Int) -&gt; Int&#10;&#10;If we wanted to create a lambda that multiplies its single argument numbers by 100 then returns that value as a String:&#10;&#10;val magnitude100String = { input : Int -&gt;&#10;    val magnitude = input * 100&#10;    magnitude.toString()&#10;}&#10;&#10;Kotlin will understand that this lambda is of type (Int) -&gt; String.&#10;&#10;Type Declaration&#10;Occasionally Kotlin can’t infer our types and we must explicitly declare the type for our lambda; just as we can with any other type.&#10;&#10;The pattern is input -&gt; output, however, if the code returns no value we use the type Unit:&#10;&#10;val that : Int -&gt; Int = { three -&gt; three }&#10;val more : (String, Int) -&gt; String = { str, int -&gt; str + int }&#10;val noReturn : Int -&gt; Unit = { num -&gt; println(num) }" />
+    <MESSAGE value="Classes in Kotlin&#10;------------------------&#10;- Access can be public,private,protected,internal&#10;- public visible to all &#10;- private visible to file or(class in which it written)&#10;- protected visible to file and sub classes&#10;- internal visible to module(if compile in library then it will not visible to other classes)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes in Kotlin&#10;------------------------&#10;- Access can be public,private,protected,internal&#10;- public visible to all &#10;- private visible to file or(class in which it written)&#10;- protected visible to file and sub classes&#10;- internal visible to module(if compile in library then it will not visible to other classes)" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Integer.java">
@@ -333,13 +379,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Aquarium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Aquarium.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/SimpleSpice.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lambdas/Lambdaas.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="e#17#64#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="111">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
