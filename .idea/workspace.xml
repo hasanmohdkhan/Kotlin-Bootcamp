@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0707124-b407-49f3-8b15-facde6b36269" name="Default Changelist" comment="Filters in Kotlin&#10;------------------------&#10;- Filter can filter a list.&#10;- Filters are of eagar and lazy type&#10;- Filters can create whole duplicate list&#10;- se">
-      <change afterPath="$PROJECT_DIR$/src/filters/FilterExample.kt" afterDir="false" />
+    <list default="true" id="e0707124-b407-49f3-8b15-facde6b36269" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Lambdaas.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Basics/META-INF/Basics.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/META-INF/Basics.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/lesson_2/HourOfDayKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/lesson_2/HourOfDayKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson_2/HourOfDay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_2/HourOfDay.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,31 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AMS.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lesson_2/HourOfDay.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/filters/FilterExample.kt">
+        <entry file="file://$PROJECT_DIR$/src/lambdas/Lambdaas.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="86">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
-                <element signature="e#121#218#0" />
+                <element signature="e#17#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +51,7 @@
         <option value="$PROJECT_DIR$/src/lesson_2/HourOfDay.kt" />
         <option value="$PROJECT_DIR$/src/FilterExample.kt" />
         <option value="$PROJECT_DIR$/src/filters/FilterExample.kt" />
+        <option value="$PROJECT_DIR$/src/lambdas/Lambdaas.kt" />
       </list>
     </option>
   </component>
@@ -92,6 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,20 +86,26 @@
               <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shoaibmohdkhan\IdeaProjects\Basics\src\filters" />
       <recent name="C:\Users\shoaibmohdkhan\IdeaProjects\Basics\src\lesson_2" />
     </key>
   </component>
@@ -133,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.lambdas.LambdaasKt">
     <configuration name="AMSKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Basics" />
       <option name="VM_PARAMETERS" value="" />
@@ -173,6 +161,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lambdas.LambdaasKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Basics" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="lambdas.LambdaasKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="lesson_2.HourOfDayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Basics" />
       <option name="VM_PARAMETERS" />
@@ -191,14 +192,15 @@
       <item itemvalue="Kotlin.HourOfDayKt" />
       <item itemvalue="Kotlin.lesson_2.HourOfDayKt" />
       <item itemvalue="Kotlin.filters.FilterExampleKt" />
+      <item itemvalue="Kotlin.lambdas.LambdaasKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.lambdas.LambdaasKt" />
         <item itemvalue="Kotlin.filters.FilterExampleKt" />
         <item itemvalue="Kotlin.lesson_2.HourOfDayKt" />
         <item itemvalue="Kotlin.HourOfDayKt" />
         <item itemvalue="Kotlin.lesson_2.HourOfDayKt" />
-        <item itemvalue="Kotlin.AMSKt" />
       </list>
     </recent_temporary>
   </component>
@@ -213,13 +215,21 @@
       <option name="presentableId" value="Default" />
       <updated>1559884410705</updated>
     </task>
+    <task id="LOCAL-00001" summary="Filters in Kotlin&#10;------------------------&#10;- Filter can filter a list.&#10;- Filters are of eagar and lazy type&#10;- Filters can create whole duplicate list&#10;- asSequence is just opposite(they not create duplicate list )">
+      <created>1559967854214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559967854214</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16868381" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12556732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -237,6 +247,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.58428806" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32733223" />
+      <window_info anchor="right" id="Key Promoter X" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -275,6 +286,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Filters in Kotlin&#10;------------------------&#10;- Filter can filter a list.&#10;- Filters are of eagar and lazy type&#10;- Filters can create whole duplicate list&#10;- asSequence is just opposite(they not create duplicate list )" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filters in Kotlin&#10;------------------------&#10;- Filter can filter a list.&#10;- Filters are of eagar and lazy type&#10;- Filters can create whole duplicate list&#10;- asSequence is just opposite(they not create duplicate list )" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -297,26 +312,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AMS.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson_2/HourOfDay.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/filters/FilterExample.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="374">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AMS.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambdas/Lambdaas.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding>
-            <element signature="e#121#218#0" />
+            <element signature="e#17#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
