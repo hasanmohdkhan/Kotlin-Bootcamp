@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0707124-b407-49f3-8b15-facde6b36269" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classes/Spice.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/Book.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Main.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,13 +20,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/Aquarium.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="3" selection-start-line="3" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classes/Book.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/Spice.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
@@ -81,9 +89,10 @@
         <option value="$PROJECT_DIR$/src/classes/Aquarium.java" />
         <option value="$PROJECT_DIR$/src/classes/Auarium.kt" />
         <option value="$PROJECT_DIR$/src/classes/SimpleSpice.kt" />
-        <option value="$PROJECT_DIR$/src/classes/Aquarium.kt" />
         <option value="$PROJECT_DIR$/src/classes/Spice.kt" />
         <option value="$PROJECT_DIR$/src/classes/Main.kt" />
+        <option value="$PROJECT_DIR$/src/classes/Aquarium.kt" />
+        <option value="$PROJECT_DIR$/src/classes/Book.kt" />
       </list>
     </option>
   </component>
@@ -275,14 +284,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559986116664</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Classes in Kotlin&#10;------------------------&#10;Constructor in Class&#10;&#10;- class can have constructor &#10;   - ClassName(var Height: Int = 20)&#10;   - constructor with Default values&#10;   - no need to reassign value as we do in java&#10;     example&#10;        ClassName(int height)&#10;        {   this.height = height&#10;          }&#10;&#10;- constructor (also called Secondary constructor)with different value Or &#10;     constructor(numberOfFish: Int) : this() {&#10;             val water: Int = numberOfFish * 2000 &#10;             val tank: Double = water + water * 0.1&#10;             height =(tank/ (length* width)).toInt()&#10;     &#10;        }">
+      <created>1559988145234</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559988145234</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.022692889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0741301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -345,7 +361,8 @@
     <MESSAGE value="Lambda in Kotlin&#10;------------------------&#10;To define a lambda, we need to stick to the syntax:&#10;&#10;val lambdaName : Type = { argumentList -&gt; codeBody }&#10;&#10;Type Inference&#10;Kotlin’s type inference allows the type of a lambda to be evaluated by the compiler.&#10;&#10;Writing a lambda that produces the square of a number would be as written as:&#10;&#10;val square = { number: Int -&gt; number * number }&#10;val nine = square(3)&#10;&#10;Kotlin will evaluate the above example to be a function that takes one Int and returns an Int: (Int) -&gt; Int&#10;&#10;If we wanted to create a lambda that multiplies its single argument numbers by 100 then returns that value as a String:&#10;&#10;val magnitude100String = { input : Int -&gt;&#10;    val magnitude = input * 100&#10;    magnitude.toString()&#10;}&#10;&#10;Kotlin will understand that this lambda is of type (Int) -&gt; String.&#10;&#10;Type Declaration&#10;Occasionally Kotlin can’t infer our types and we must explicitly declare the type for our lambda; just as we can with any other type.&#10;&#10;The pattern is input -&gt; output, however, if the code returns no value we use the type Unit:&#10;&#10;val that : Int -&gt; Int = { three -&gt; three }&#10;val more : (String, Int) -&gt; String = { str, int -&gt; str + int }&#10;val noReturn : Int -&gt; Unit = { num -&gt; println(num) }" />
     <MESSAGE value="Classes in Kotlin&#10;------------------------&#10;- Access can be public,private,protected,internal&#10;- public visible to all &#10;- private visible to file or(class in which it written)&#10;- protected visible to file and sub classes&#10;- internal visible to module(if compile in library then it will not visible to other classes)" />
     <MESSAGE value="Classes in Kotlin&#10;------------------------&#10;Constructor in Class&#10;&#10;- class can have constructor &#10;   - ClassName(var Height: Int = 20)&#10;   - constructor with Default values&#10;   - no need to reassign value as we do in java&#10;     example&#10;        ClassName(int height)&#10;        {   this.height = height&#10;          }&#10;&#10;- constructor with different value Or &#10;     constructor(numberOfFish: Int) : this() {&#10;             val water: Int = numberOfFish * 2000 &#10;             val tank: Double = water + water * 0.1&#10;             height =(tank/ (length* width)).toInt()&#10;     &#10;        }" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes in Kotlin&#10;------------------------&#10;Constructor in Class&#10;&#10;- class can have constructor &#10;   - ClassName(var Height: Int = 20)&#10;   - constructor with Default values&#10;   - no need to reassign value as we do in java&#10;     example&#10;        ClassName(int height)&#10;        {   this.height = height&#10;          }&#10;&#10;- constructor with different value Or &#10;     constructor(numberOfFish: Int) : this() {&#10;             val water: Int = numberOfFish * 2000 &#10;             val tank: Double = water + water * 0.1&#10;             height =(tank/ (length* width)).toInt()&#10;     &#10;        }" />
+    <MESSAGE value="Classes in Kotlin&#10;------------------------&#10;Constructor in Class&#10;&#10;- class can have constructor &#10;   - ClassName(var Height: Int = 20)&#10;   - constructor with Default values&#10;   - no need to reassign value as we do in java&#10;     example&#10;        ClassName(int height)&#10;        {   this.height = height&#10;          }&#10;&#10;- constructor (also called Secondary constructor)with different value Or &#10;     constructor(numberOfFish: Int) : this() {&#10;             val water: Int = numberOfFish * 2000 &#10;             val tank: Double = water + water * 0.1&#10;             height =(tank/ (length* width)).toInt()&#10;     &#10;        }" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes in Kotlin&#10;------------------------&#10;Constructor in Class&#10;&#10;- class can have constructor &#10;   - ClassName(var Height: Int = 20)&#10;   - constructor with Default values&#10;   - no need to reassign value as we do in java&#10;     example&#10;        ClassName(int height)&#10;        {   this.height = height&#10;          }&#10;&#10;- constructor (also called Secondary constructor)with different value Or &#10;     constructor(numberOfFish: Int) : this() {&#10;             val water: Int = numberOfFish * 2000 &#10;             val tank: Double = water + water * 0.1&#10;             height =(tank/ (length* width)).toInt()&#10;     &#10;        }" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -414,13 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/Aquarium.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -432,6 +442,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="21" column="34" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Aquarium.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/Book.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
