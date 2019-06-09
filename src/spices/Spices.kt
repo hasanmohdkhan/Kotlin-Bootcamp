@@ -1,5 +1,7 @@
 package spices
 
+import specialpurposeclasses.Color
+
 fun main() {
     makeCurry()
 }
@@ -40,12 +42,11 @@ interface Grinder {
 }
 
 interface SpiceColor {
-    var color: String
+    var color: Color
 }
 
 object YellowSpiceColor : SpiceColor {
-    override var color: String
-        get() = "Golden"
-        set(value) {}
+    override var color = Color.YELLOW
+
 
 }

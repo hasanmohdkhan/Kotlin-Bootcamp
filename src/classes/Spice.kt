@@ -17,7 +17,7 @@ package classes
 
 */
 class Spice(var name: String = "Curry", var spiciness: String = "mild") {
-    var heat: Int = 0
+    val heat: Int
         get() {
             return when (spiciness) {
                 "mild" -> 1
