@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0707124-b407-49f3-8b15-facde6b36269" name="Default Changelist" comment="Pairs &amp; Triple in Kotlin&#10;-----------------------------------&#10;&#10; &#10;Pair &amp; Triple is used to store or return two &amp; three values &#10;respectively of same or different data types. &#10;There can or cannot be any relation between both the values. &#10;They can be of the same or different data types.&#10;&#10;And how do I use it?&#10;_____________________________&#10;&#10;Initialise it as a simple Pair class object by &#10;passing two values to the constructor.&#10;    Ex-&#10;        Pair (&quot;Hello&quot;, &quot;How are you&quot;)&#10;        Pair (&quot;First&quot;, 1)&#10;        Pair (10, null)&#10;        Pair (1.5, listOf(null))&#10;        var variable1 = &quot;I am a String&quot;&#10;        var variable2 = 10&#10;            &#10;        Pair (variable1, variable2)&#10;&#10;And how do I retrieve the values?&#10;______________________________________&#10;&#10;Either receive them in a single variable and &#10;use first and second properties or componentN &#10;method to extract the values, or receive in separate &#10;variables and use them directly.&#10;&#10;    Ex&#10;        var pair = Pair(&quot;Hello&quot;, &quot;How are you&quot;)&#10;        println(pair.first)&#10;        println(pair.second)&#10;        &#10;        println(pair.component1())&#10;        println(pair.component2())&#10;        //or&#10;        var (firstName, lastName) = Pair(&quot;Hasan&quot;, &quot;Khan&quot;)&#10;        println(firstName)&#10;        println(lastName)&#10;&#10;- We can even use a normal method like toString() on this object.&#10;    EX- &#10;         val pair = Pair(&quot;I am a String&quot;, listOf(1,2,3))&#10;         print(pair.toString())&#10;&#10;- We can even convert a Pair object to a list using toList().&#10;    Ex-&#10;        val pair = Pair(&quot;I am a String&quot;, 10)&#10;        val list = pair.toList()&#10;        println(list[0])&#10;        println(list.get(1))">
-      <change afterPath="$PROJECT_DIR$/src/kotlinEssentials/Pairs.kt" afterDir="false" />
+    <list default="true" id="e0707124-b407-49f3-8b15-facde6b36269" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/kotlinEssentials/CollectionsInKotlin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Basics/META-INF/Basics.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/META-INF/Basics.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kotlinEssentials/Pairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/kotlinEssentials/Pairs.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +19,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kotlinEssentials/CollectionsInKotlin.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="n#!!block;n#Book#0" />
+                <element signature="n#!!block;n#canBorrow#0;n#!!block;n#Book#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/kotlinEssentials/Pairs.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="13" column="106" selection-start-line="13" selection-start-column="106" selection-end-line="13" selection-end-column="106" />
+            <state relative-caret-position="173">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+              <folding>
+                <element signature="n#!!block;n#Books#0" />
+                <element signature="n#!!block;n#getWeight#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,6 +55,17 @@
         <option value="Kotlin File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\n</find>
+      <find>+</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace />
+      <replace>,</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/classes/Main.kt" />
         <option value="$PROJECT_DIR$/src/classes/Spice.kt" />
         <option value="$PROJECT_DIR$/src/specialpurposeclasses/SpecialPurposeClasses.kt" />
+        <option value="$PROJECT_DIR$/src/kotlinEssentials/CollectionsInKotlin.kt" />
         <option value="$PROJECT_DIR$/src/kotlinEssentials/Pairs.kt" />
       </list>
     </option>
@@ -99,6 +130,12 @@
               <item name="Basics" type="b2602c69:ProjectViewProjectNode" />
               <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlinEssentials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,14 +181,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dataclasses.DataClassKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="kotlinEssentials.CollectionsInKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Basics" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="dataclasses.DataClassKt" />
+      <option name="MAIN_CLASS_NAME" value="kotlinEssentials.CollectionsInKotlinKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,18 +235,18 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.spices.SpicesKt" />
-      <item itemvalue="Kotlin.dataclasses.DataClassKt" />
       <item itemvalue="Kotlin.specialpurposeclasses.SpecialPurposeClassesKt" />
       <item itemvalue="Kotlin.classes.MainKt" />
       <item itemvalue="Kotlin.kotlinEssentials.PairsKt" />
+      <item itemvalue="Kotlin.kotlinEssentials.CollectionsInKotlinKt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.kotlinEssentials.PairsKt" />
+        <item itemvalue="Kotlin.kotlinEssentials.CollectionsInKotlinKt" />
         <item itemvalue="Kotlin.classes.MainKt" />
         <item itemvalue="Kotlin.spices.SpicesKt" />
         <item itemvalue="Kotlin.specialpurposeclasses.SpecialPurposeClassesKt" />
-        <item itemvalue="Kotlin.dataclasses.DataClassKt" />
       </list>
     </recent_temporary>
   </component>
@@ -308,13 +345,21 @@
       <option name="project" value="LOCAL" />
       <updated>1560053496797</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Pairs &amp; Triple in Kotlin&#10;-----------------------------------&#10;&#10; &#10;Pair &amp; Triple is used to store or return two &amp; three values &#10;respectively of same or different data types. &#10;There can or cannot be any relation between both the values. &#10;They can be of the same or different data types.&#10;&#10;And how do I use it?&#10;_____________________________&#10;&#10;Initialise it as a simple Pair class object by &#10;passing two values to the constructor.&#10;    Ex-&#10;        Pair (&quot;Hello&quot;, &quot;How are you&quot;)&#10;        Pair (&quot;First&quot;, 1)&#10;        Pair (10, null)&#10;        Pair (1.5, listOf(null))&#10;        var variable1 = &quot;I am a String&quot;&#10;        var variable2 = 10&#10;            &#10;        Pair (variable1, variable2)&#10;&#10;And how do I retrieve the values?&#10;______________________________________&#10;&#10;Either receive them in a single variable and &#10;use first and second properties or componentN &#10;method to extract the values, or receive in separate &#10;variables and use them directly.&#10;&#10;    Ex&#10;        var pair = Pair(&quot;Hello&quot;, &quot;How are you&quot;)&#10;        println(pair.first)&#10;        println(pair.second)&#10;        &#10;        println(pair.component1())&#10;        println(pair.component2())&#10;        //or&#10;        var (firstName, lastName) = Pair(&quot;Hasan&quot;, &quot;Khan&quot;)&#10;        println(firstName)&#10;        println(lastName)&#10;&#10;- We can even use a normal method like toString() on this object.&#10;    EX- &#10;         val pair = Pair(&quot;I am a String&quot;, listOf(1,2,3))&#10;         print(pair.toString())&#10;&#10;- We can even convert a Pair object to a list using toList().&#10;    Ex-&#10;        val pair = Pair(&quot;I am a String&quot;, 10)&#10;        val list = pair.toList()&#10;        println(list[0])&#10;        println(list.get(1))">
+      <created>1560137218535</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560137218535</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.052233156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12708019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,7 +368,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.65302783" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5400982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,13 +379,13 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32733223" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Maven" order="1" weight="0.329296" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.24981076" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Key Promoter X" order="8" weight="0.329296" />
+      <window_info anchor="right" id="Key Promoter X" order="2" weight="0.329296" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.24981076" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -383,7 +428,8 @@
     <MESSAGE value="Interface in Kotlin&#10;------------------------&#10;- Interface Vs abstract class&#10;   -- Difference&#10;   - abstract classes can have &quot;constructor&quot; &#10;   - Interface can not have &quot;constructor&quot;&#10;   &#10;   -- Similarity&#10;   - Both can have implementation of &quot;Methods&quot;&#10;   &#10;- object keyword is used for creating single object&#10;  like singleton pattern in java&#10;     &#10;     object GoldenColor : FishColor2 {&#10;         override val color: String&#10;             get() = &quot;Gold&quot;&#10;     }" />
     <MESSAGE value="Data Class in Kotlin&#10;------------------------&#10;We creates classes that purpose is hold &quot;Data&quot;&#10;In Kotlin these classes are called data classes.&#10;&#10;- declare by &quot;data&quot; keywords&#10;     Ex: data class User(val name: String, val age: Int)&#10;     &#10;- The compiler automatically derives the following members &#10;  from all properties declared in the primary constructor:&#10;    - equals()/hashCode() pair;&#10;    - toString() of the form &quot;User(name=John, age=42)&quot;;&#10;    - componentN() functions corresponding to the properties &#10;      in their order of declaration;&#10;    - copy() function (see below).&#10;     &#10;- To ensure consistency and meaningful behavior of the generated code,&#10;  data classes have to fulfill the following requirements:&#10;   - The primary constructor needs to have at least one parameter;&#10;   - All primary constructor parameters need to be marked as &#10;     &quot;val&quot; or &quot;var&quot;;&#10;   - Data classes cannot be abstract, open, sealed or inner;&#10;   - Data classes may only implement interfaces." />
     <MESSAGE value="Special purpose classes in Kotlin&#10;-----------------------------------&#10;- &quot;Object&quot; create only one instance(object)&#10;- &quot;enum&quot; create only one instance(object) and &#10;   one object of property(i.e RED,BLUE,GREEN) also&#10;   you can not add more property to it(u can not modified it).&#10;- &quot;sealed&quot; classes allow sub classes in only where &quot;sealed&quot; &#10;   class is declared" />
-    <option name="LAST_COMMIT_MESSAGE" value="Special purpose classes in Kotlin&#10;-----------------------------------&#10;- &quot;Object&quot; create only one instance(object)&#10;- &quot;enum&quot; create only one instance(object) and &#10;   one object of property(i.e RED,BLUE,GREEN) also&#10;   you can not add more property to it(u can not modified it).&#10;- &quot;sealed&quot; classes allow sub classes in only where &quot;sealed&quot; &#10;   class is declared" />
+    <MESSAGE value="Pairs &amp; Triple in Kotlin&#10;-----------------------------------&#10;&#10; &#10;Pair &amp; Triple is used to store or return two &amp; three values &#10;respectively of same or different data types. &#10;There can or cannot be any relation between both the values. &#10;They can be of the same or different data types.&#10;&#10;And how do I use it?&#10;_____________________________&#10;&#10;Initialise it as a simple Pair class object by &#10;passing two values to the constructor.&#10;    Ex-&#10;        Pair (&quot;Hello&quot;, &quot;How are you&quot;)&#10;        Pair (&quot;First&quot;, 1)&#10;        Pair (10, null)&#10;        Pair (1.5, listOf(null))&#10;        var variable1 = &quot;I am a String&quot;&#10;        var variable2 = 10&#10;            &#10;        Pair (variable1, variable2)&#10;&#10;And how do I retrieve the values?&#10;______________________________________&#10;&#10;Either receive them in a single variable and &#10;use first and second properties or componentN &#10;method to extract the values, or receive in separate &#10;variables and use them directly.&#10;&#10;    Ex&#10;        var pair = Pair(&quot;Hello&quot;, &quot;How are you&quot;)&#10;        println(pair.first)&#10;        println(pair.second)&#10;        &#10;        println(pair.component1())&#10;        println(pair.component2())&#10;        //or&#10;        var (firstName, lastName) = Pair(&quot;Hasan&quot;, &quot;Khan&quot;)&#10;        println(firstName)&#10;        println(lastName)&#10;&#10;- We can even use a normal method like toString() on this object.&#10;    EX- &#10;         val pair = Pair(&quot;I am a String&quot;, listOf(1,2,3))&#10;         print(pair.toString())&#10;&#10;- We can even convert a Pair object to a list using toList().&#10;    Ex-&#10;        val pair = Pair(&quot;I am a String&quot;, 10)&#10;        val list = pair.toList()&#10;        println(list[0])&#10;        println(list.get(1))" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pairs &amp; Triple in Kotlin&#10;-----------------------------------&#10;&#10; &#10;Pair &amp; Triple is used to store or return two &amp; three values &#10;respectively of same or different data types. &#10;There can or cannot be any relation between both the values. &#10;They can be of the same or different data types.&#10;&#10;And how do I use it?&#10;_____________________________&#10;&#10;Initialise it as a simple Pair class object by &#10;passing two values to the constructor.&#10;    Ex-&#10;        Pair (&quot;Hello&quot;, &quot;How are you&quot;)&#10;        Pair (&quot;First&quot;, 1)&#10;        Pair (10, null)&#10;        Pair (1.5, listOf(null))&#10;        var variable1 = &quot;I am a String&quot;&#10;        var variable2 = 10&#10;            &#10;        Pair (variable1, variable2)&#10;&#10;And how do I retrieve the values?&#10;______________________________________&#10;&#10;Either receive them in a single variable and &#10;use first and second properties or componentN &#10;method to extract the values, or receive in separate &#10;variables and use them directly.&#10;&#10;    Ex&#10;        var pair = Pair(&quot;Hello&quot;, &quot;How are you&quot;)&#10;        println(pair.first)&#10;        println(pair.second)&#10;        &#10;        println(pair.component1())&#10;        println(pair.component2())&#10;        //or&#10;        var (firstName, lastName) = Pair(&quot;Hasan&quot;, &quot;Khan&quot;)&#10;        println(firstName)&#10;        println(lastName)&#10;&#10;- We can even use a normal method like toString() on this object.&#10;    EX- &#10;         val pair = Pair(&quot;I am a String&quot;, listOf(1,2,3))&#10;         print(pair.toString())&#10;&#10;- We can even convert a Pair object to a list using toList().&#10;    Ex-&#10;        val pair = Pair(&quot;I am a String&quot;, 10)&#10;        val list = pair.toList()&#10;        println(list[0])&#10;        println(list.get(1))" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -516,10 +562,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/String.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kotlinEssentials/CollectionsInKotlin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="n#!!block;n#Book#0" />
+            <element signature="n#!!block;n#canBorrow#0;n#!!block;n#Book#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/kotlinEssentials/Pairs.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="13" column="106" selection-start-line="13" selection-start-column="106" selection-end-line="13" selection-end-column="106" />
+        <state relative-caret-position="173">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!block;n#Books#0" />
+            <element signature="n#!!block;n#getWeight#0" />
+          </folding>
         </state>
       </provider>
     </entry>
