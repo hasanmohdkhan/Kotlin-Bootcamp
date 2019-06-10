@@ -23,7 +23,26 @@ class Building<out T : BaseBuildingMaterial>(val buildingMaterial: T) {
     }
 }
 
+// generic function
+fun <T : BaseBuildingMaterial> isSmallBuilding(building: Building<T>) {
+    if (building.actualMaterialsNeeded < 500) println("Small building")
+    else println("Large building")
+
+}
+
 fun main() {
     Building(Wood()).build()
+    isSmallBuilding(Building(Wood()))
     Building(Brick()).build()
+    isSmallBuilding(Building(Brick()))
+
+    loop@ for (i in 1..100) {
+        for (j in 1..100) {
+            if (j == 10)
+                println("j $j")
+            break@loop
+        }
+
+    }
+
 }

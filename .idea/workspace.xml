@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0707124-b407-49f3-8b15-facde6b36269" name="Default Changelist" comment="Generics Functions in Kotlin&#10;-----------------------------------">
-      <change afterPath="$PROJECT_DIR$/src/generices/Aquarium.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generices/Buildings/Buildings.kt" afterDir="false" />
+    <list default="true" id="e0707124-b407-49f3-8b15-facde6b36269" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Basics/META-INF/Basics.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Basics/META-INF/Basics.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generices/Buildings/Buildings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/generices/Buildings/Buildings.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/generices/Aquarium.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="298">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="n#!!block;n#TapWater#0" />
                 <element signature="n#!!block;n#LakeWater#0" />
@@ -32,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/generices/Buildings/Buildings.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="338">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -93,8 +91,8 @@
         <option value="$PROJECT_DIR$/src/specialpurposeclasses/SpecialPurposeClasses.kt" />
         <option value="$PROJECT_DIR$/src/kotlinEssentials/CollectionsInKotlin.kt" />
         <option value="$PROJECT_DIR$/src/kotlinEssentials/Pairs.kt" />
-        <option value="$PROJECT_DIR$/src/generices/Aquarium.kt" />
         <option value="$PROJECT_DIR$/src/generices/Buildings/Buildings/Buildings.kt" />
+        <option value="$PROJECT_DIR$/src/generices/Aquarium.kt" />
         <option value="$PROJECT_DIR$/src/generices/Buildings/Buildings.kt" />
       </list>
     </option>
@@ -365,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560155943617</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Generics Functions in Kotlin&#10;-----------------------------------&#10;- Generics are a powerful feature that allows us to define a &#10;  common class/method/property that can be operated using different &#10;  types while keeping a check of the compile-time type safety.&#10;&#10;- They are commonly used in Collections.&#10;&#10;- A generic type is a class or interface that is parameterized &#10;  over types. We use angle brackets (&lt;&gt;) to specify the type parameter. &#10;    Ex&#10;          fun main(args: Array&lt;String&gt;) {&#10;                  var a = A(&quot;&quot;)&#10;                  var b: A&lt;Int&gt; = A(1) //explicit&#10;              }&#10;               class A&lt;T&gt;(argument: T) &#10;               {&#10;                  var result = argument&#10;                }">
+      <created>1560165978223</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1560165978223</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -381,7 +386,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5090016" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49918166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,7 +448,8 @@
     <MESSAGE value="Special purpose classes in Kotlin&#10;-----------------------------------&#10;- &quot;Object&quot; create only one instance(object)&#10;- &quot;enum&quot; create only one instance(object) and &#10;   one object of property(i.e RED,BLUE,GREEN) also&#10;   you can not add more property to it(u can not modified it).&#10;- &quot;sealed&quot; classes allow sub classes in only where &quot;sealed&quot; &#10;   class is declared" />
     <MESSAGE value="Pairs &amp; Triple in Kotlin&#10;-----------------------------------&#10;&#10; &#10;Pair &amp; Triple is used to store or return two &amp; three values &#10;respectively of same or different data types. &#10;There can or cannot be any relation between both the values. &#10;They can be of the same or different data types.&#10;&#10;And how do I use it?&#10;_____________________________&#10;&#10;Initialise it as a simple Pair class object by &#10;passing two values to the constructor.&#10;    Ex-&#10;        Pair (&quot;Hello&quot;, &quot;How are you&quot;)&#10;        Pair (&quot;First&quot;, 1)&#10;        Pair (10, null)&#10;        Pair (1.5, listOf(null))&#10;        var variable1 = &quot;I am a String&quot;&#10;        var variable2 = 10&#10;            &#10;        Pair (variable1, variable2)&#10;&#10;And how do I retrieve the values?&#10;______________________________________&#10;&#10;Either receive them in a single variable and &#10;use first and second properties or componentN &#10;method to extract the values, or receive in separate &#10;variables and use them directly.&#10;&#10;    Ex&#10;        var pair = Pair(&quot;Hello&quot;, &quot;How are you&quot;)&#10;        println(pair.first)&#10;        println(pair.second)&#10;        &#10;        println(pair.component1())&#10;        println(pair.component2())&#10;        //or&#10;        var (firstName, lastName) = Pair(&quot;Hasan&quot;, &quot;Khan&quot;)&#10;        println(firstName)&#10;        println(lastName)&#10;&#10;- We can even use a normal method like toString() on this object.&#10;    EX- &#10;         val pair = Pair(&quot;I am a String&quot;, listOf(1,2,3))&#10;         print(pair.toString())&#10;&#10;- We can even convert a Pair object to a list using toList().&#10;    Ex-&#10;        val pair = Pair(&quot;I am a String&quot;, 10)&#10;        val list = pair.toList()&#10;        println(list[0])&#10;        println(list.get(1))" />
     <MESSAGE value="Extension Functions in Kotlin&#10;-----------------------------------&#10;- To declare an extension function, we need to prefix its &#10;  name with a receiver type, i.e. the type being extended.&#10;  The following adds a swap function to MutableList&lt;Int&gt;:&#10;&#10;    fun MutableList&lt;Int&gt;.swap(index1: Int, index2: Int) &#10;    {&#10;        val tmp = this[index1] // 'this' corresponds to the list&#10;        this[index1] = this[index2]&#10;        this[index2] = tmp&#10;    }&#10;    &#10;- The this keyword inside an extension function corresponds&#10;  to the receiver object (the one that is passed before the dot).&#10;  Now, we can call such a function on any MutableList&lt;Int&gt;:&#10;&#10;    val l = mutableListOf(1, 2, 3)&#10;    l.swap(0, 2) // 'this' inside 'swap()' will hold the value of 'l'&#10;    val l = mutableListOf(1, 2, 3)&#10;    l.swap(0, 2) // 'this' inside 'swap()' will hold the value of 'l'&#10;&#10;Nullable Receiver&#10;__________________&#10;&#10;- Note that extensions can be defined with a nullable receiver type.&#10;  Such extensions can be called on an object variable even if its &#10;  value is null, and can check for this == null inside the body. &#10;  This is what allows you to call toString() in Kotlin without &#10;  checking for null: the check happens inside the extension function.&#10;&#10;    fun Any?.toString(): String {&#10;        if (this == null) return &quot;null&quot;&#10;        // after the null check, 'this' is auto cast to a &#10;        // non-null type, so the toString() below&#10;        // resolves to the member function of the Any class&#10;        return toString()&#10;    }" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extension Functions in Kotlin&#10;-----------------------------------&#10;- To declare an extension function, we need to prefix its &#10;  name with a receiver type, i.e. the type being extended.&#10;  The following adds a swap function to MutableList&lt;Int&gt;:&#10;&#10;    fun MutableList&lt;Int&gt;.swap(index1: Int, index2: Int) &#10;    {&#10;        val tmp = this[index1] // 'this' corresponds to the list&#10;        this[index1] = this[index2]&#10;        this[index2] = tmp&#10;    }&#10;    &#10;- The this keyword inside an extension function corresponds&#10;  to the receiver object (the one that is passed before the dot).&#10;  Now, we can call such a function on any MutableList&lt;Int&gt;:&#10;&#10;    val l = mutableListOf(1, 2, 3)&#10;    l.swap(0, 2) // 'this' inside 'swap()' will hold the value of 'l'&#10;    val l = mutableListOf(1, 2, 3)&#10;    l.swap(0, 2) // 'this' inside 'swap()' will hold the value of 'l'&#10;&#10;Nullable Receiver&#10;__________________&#10;&#10;- Note that extensions can be defined with a nullable receiver type.&#10;  Such extensions can be called on an object variable even if its &#10;  value is null, and can check for this == null inside the body. &#10;  This is what allows you to call toString() in Kotlin without &#10;  checking for null: the check happens inside the extension function.&#10;&#10;    fun Any?.toString(): String {&#10;        if (this == null) return &quot;null&quot;&#10;        // after the null check, 'this' is auto cast to a &#10;        // non-null type, so the toString() below&#10;        // resolves to the member function of the Any class&#10;        return toString()&#10;    }" />
+    <MESSAGE value="Generics Functions in Kotlin&#10;-----------------------------------&#10;- Generics are a powerful feature that allows us to define a &#10;  common class/method/property that can be operated using different &#10;  types while keeping a check of the compile-time type safety.&#10;&#10;- They are commonly used in Collections.&#10;&#10;- A generic type is a class or interface that is parameterized &#10;  over types. We use angle brackets (&lt;&gt;) to specify the type parameter. &#10;    Ex&#10;          fun main(args: Array&lt;String&gt;) {&#10;                  var a = A(&quot;&quot;)&#10;                  var b: A&lt;Int&gt; = A(1) //explicit&#10;              }&#10;               class A&lt;T&gt;(argument: T) &#10;               {&#10;                  var result = argument&#10;                }" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generics Functions in Kotlin&#10;-----------------------------------&#10;- Generics are a powerful feature that allows us to define a &#10;  common class/method/property that can be operated using different &#10;  types while keeping a check of the compile-time type safety.&#10;&#10;- They are commonly used in Collections.&#10;&#10;- A generic type is a class or interface that is parameterized &#10;  over types. We use angle brackets (&lt;&gt;) to specify the type parameter. &#10;    Ex&#10;          fun main(args: Array&lt;String&gt;) {&#10;                  var a = A(&quot;&quot;)&#10;                  var b: A&lt;Int&gt; = A(1) //explicit&#10;              }&#10;               class A&lt;T&gt;(argument: T) &#10;               {&#10;                  var result = argument&#10;                }" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -605,21 +611,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generices/Buildings/Buildings.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/generices/Aquarium.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="298">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="n#!!block;n#TapWater#0" />
             <element signature="n#!!block;n#LakeWater#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generices/Buildings/Buildings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
